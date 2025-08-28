@@ -1,0 +1,110 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap" rel="stylesheet">
+  <title>StarFills </title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="assets/sign-in/carbon_logo-slack.png">
+
+</head>
+<body>
+  <input type="checkbox" id="toggle" hidden>
+
+
+  <div class="container">
+
+
+    <!-- Sign In Panel -->
+    <div class="form-container sign-in-container">
+      <form>
+        <img src="assets/sign-in/carbon_logo-slack.png" alt="logo"
+           style="width:99px;
+            height:99px;
+            opacity:1;
+            position:absolute;
+            top:50px;
+            left:92px;
+            transform:rotate(0deg);"/>
+            <h2 style="font-family: 'Jaldi', sans-serif; font-weight: 700; font-style: normal; font-size: 70px; line-height: 100%; letter-spacing: 0%; color:#C1C242;">Sign in to StarFills</h2>
+
+       <div class="social-icons">
+          <a href="#">
+            <img src="assets/sign-in/la_facebook.png" alt="Facebook" class="social-icon">
+          </a>  
+          <a href="#">
+            <img src="assets/sign-in/icomoon-free_google-plus3.png" alt="Google Plus" class="social-icon">
+          </a>
+          <a href="#">
+            <img src="assets/sign-in/entypo-social_linkedin-with-circle.png" alt="LinkedIn" class="social-icon">
+          </a>
+        </div>
+        <span>or use ur email account</span>
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        
+        <a href="#">
+          <img src="assets/sign-in/Forgot your password_.png" alt="Forgot your password?" class="forgot-icon">
+        </a>
+
+        <button type="submit">Sign In</button>
+      </form>
+    </div>
+
+
+    <!-- Sign Up Panel -->
+    <div class="form-container sign-up-container">
+      <form>
+        <h2 style="font-family: 'Jaldi', sans-serif; font-weight: 700; font-style: normal; font-size: 48px; line-height: 100%; letter-spacing: 0%; color:#C1C242;">Create Account</h2>
+        <div class="social-icons">
+          
+          <a href="#">
+            <img src="assets/sign-in/la_facebook.png" alt="Facebook" class="social-icon">
+          </a>
+          <a href="#">
+            <img src="assets/sign-in/icomoon-free_google-plus3.png" alt="Google Plus" class="social-icon">
+          </a>
+          <a href="#">
+            <img src="assets/sign-in/entypo-social_linkedin-with-circle.png" alt="LinkedIn" class="social-icon">
+          </a>
+        </div>
+        
+
+
+        <span>or use ur email account</span>
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <a href="#">
+          <img src="assets/sign-in/Forgot your password_.png" alt="Forgot your password?" class="forgot-icon">
+        </a>        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+
+    
+    <!-- Overlay -->
+    <div class="overlay-container">
+      <div class="overlay">
+        <div class="overlay-panel overlay-left">
+          <h2 style="font-family: 'Jaldi', sans-serif; font-weight: 700; font-style: normal; font-size: 64px; line-height: 100%; letter-spacing: 0;"> Start New Journey!</h2>     
+          <p style="font-family: 'Jaldi', sans-serif; font-weight: 500; font-style: normal; font-size: 27px; line-height: 100%; letter-spacing: 0;">Already have an account?</p>
+
+          <label for="toggle" class="ghost" id="signUp">Sign In</label>
+        </div>
+        <div class="overlay-panel overlay-right">
+
+          
+<h2 style="font-family: 'Jaldi', sans-serif; font-weight: 700; font-style: normal; font-size: 64px; line-height: 100%; letter-spacing: 0;">Welcome Back!</h2>
+ <p style="font-family: 'Jaldi', sans-serif; font-weight: 500; font-style: normal; font-size: 27px; line-height: 100%; letter-spacing: 0;"> Don't have an account?</p>
+
+
+
+
+          <label for="toggle" class="ghost" id="signIn">Sign Up</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
